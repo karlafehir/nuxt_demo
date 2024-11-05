@@ -1,5 +1,5 @@
 <template>
-  <Tutorial/>
+   <p>Layout with footer and header test</p>
 </template>
 
 <script>
