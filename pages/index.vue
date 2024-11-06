@@ -1,9 +1,17 @@
 <template>
-   <p>Layout with footer and header test</p>
+  <div>
+    <p>Layout with footer and header test</p>
+    <Test />
+  </div>
 </template>
 
 <script>
+import Test from '~/components/Test.vue'; 
+
 export default {
-  name: 'IndexPage'
-}
+  name: 'IndexPage',
+  components: {
+    Test 
+  }
+};
 </script>
